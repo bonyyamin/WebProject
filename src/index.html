@@ -25,8 +25,8 @@
       </div>
       <!--Search bar-->
       <!--logo-->
-      <div class="flex justify-center items-center mb-2 sm:mb-0">
-        <img src="img/logo.png" alt="" class="h-8" />
+      <div class="flex justify-center items-center mb-2 mt-2 sm:mb-0">
+        <img src="img/logo.png" alt="" class="h-8 shadow-md rounded-md" />
       </div>
       <!--logo-->
       <!--header icon-->
@@ -36,7 +36,7 @@
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 448 512"
-            class="w-6 h-6 hover:fill-red-600"
+            class="w-6 h-6 hover:fill-red-600 cursor-pointer"
           >
             <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
             <path
@@ -47,7 +47,7 @@
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 448 512"
-            class="w-6 h-6 hover:fill-red-600"
+            class="w-6 h-6 hover:fill-red-600 cursor-pointer"
           >
             <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
             <path
@@ -58,7 +58,7 @@
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 448 512"
-            class="w-6 h-6 hover:fill-red-600"
+            class="w-6 h-6 hover:fill-red-600 cursor-pointer"
           >
             <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
             <path
@@ -69,7 +69,7 @@
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 448 512"
-            class="w-6 h-6 hover:fill-red-600"
+            class="w-6 h-6 hover:fill-red-600 cursor-pointer"
           >
             <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
             <path
@@ -86,7 +86,7 @@
     <!--Navbar Section-->
     <div class="flex justify-center pt-2 sm:pt-4">
       <div
-        class="bg-slate-100 rounded-sm flex sm:flex justify-center divide-x-2 sm:divide-x-0 shadow-sm"
+        class="hidden bg-slate-100 rounded-sm sm:flex justify-center divide-x-2 sm:divide-x-0 shadow-sm"
       >
         <div
           class="font-semibold text-sm sm:text-xl pt-1 pb-1 px-2 sm:pt-2 sm:pb-2 sm:px-4 hover:bg-black hover:text-white"
@@ -129,6 +129,36 @@
           <a href="">Lifestyle</a>
         </div>
       </div>
+      <div
+        class="flex sm:hidden bg-slate-100 rounded-sm justify-center divide-x-2 sm:divide-x-0 shadow-sm"
+      >
+        <div
+          class="font-semibold text-sm sm:text-xl pt-1 pb-1 px-2 sm:pt-2 sm:pb-2 sm:px-4 hover:bg-black hover:text-white"
+        >
+          <a href="">Bangladesh</a>
+        </div>
+        <div
+          class="font-semibold text-sm sm:text-xl pt-1 pb-1 px-2 sm:pt-2 sm:pb-2 sm:px-4 hover:bg-black hover:text-white"
+        >
+          <a href="">International</a>
+        </div>
+        <div
+          class="font-semibold text-sm sm:text-xl pt-1 pb-1 px-2 sm:pt-2 sm:pb-2 sm:px-4 hover:bg-black hover:text-white"
+        >
+          <a href="">Sports</a>
+        </div>
+        <div
+          class="font-semibold text-sm sm:text-xl pt-1 pb-1 px-2 sm:pt-2 sm:pb-2 sm:px-4 hover:bg-black hover:text-white"
+        >
+          <a href="">Youth</a>
+        </div>
+        <div
+          class="font-semibold text-sm sm:text-xl pt-1 pb-1 px-2 sm:pt-2 sm:pb-2 sm:px-4 hover:bg-black hover:text-white"
+        >
+          <a href="">More</a>
+        </div>
+      </div>
+      
     </div>
     <!--Navbar Section-->
     <br /><br />
@@ -289,7 +319,7 @@
     <!--Colors-->
     <div class="relative sm:w-[1024px] mx-auto">
       <div class="text-3xl font-semibold mb-2 text-center">Colors</div>
-      <div class="flex space-x-10 justify-start">
+      <div class="flex space-x-5 sm:space-x-10 justify-start">
         <div
           class="block w-20 h-20 sm:w-40 sm:h-40 bg-black shadow-lg rounded-md hover:transition-colors"
         ></div>
@@ -970,7 +1000,7 @@
       <div class="relative text-2xl font-semibold mb-4 text-center">
         Shocking News
       </div>
-      <div class="grid sm:grid-cols-3 space-x-2">
+      <div class="grid sm:grid-cols-3 justify-center space-x-2">
         <div class="sm:flex">
           <div>
             <img src="img/Y1.png" alt="" class="rounded-md shadow-sm" />
@@ -1036,96 +1066,91 @@
     <br /><br /><br />
     <!--People Profile Section Start-->
     <div class="container sm:w-[1024px] mx-auto">
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-        <div class="">
+      <div
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6"
+      >
+        <div class="justify-center">
           <p class="text-left text-xl font-semibold m-2">MD. Habibur</p>
-          <img src="img/P1.png" alt="" class="rounded-md" />
+          <img src="img/P1.png" alt="" class="rounded-md shadow-md" />
         </div>
-        <div class="">
+        <div class="shadow-md">
           <p class="text-left text-xl font-semibold m-2">Bony Yamin</p>
-          <img src="img/P2.png" alt="" class="rounded-md" />
-          <br />
+          <img src="img/P2.png" alt="" class="rounded-md shadow-md" />
           <p class="text-gray-400">Some</p>
           <a href="" class="font-bold hover:underline"
             >There are some news about this man?</a
           >
-          <br />
-          <a href="" class="hover:text-red-600 mt-4">Read More</a>
+          
         </div>
         <div class="">
           <p class="text-left text-xl font-semibold m-2">Monsur Ali</p>
-          <img src="img/P3.png" alt="" class="rounded-md" />
+          <img src="img/P3.png" alt="" class="rounded-md shadow-md" />
         </div>
         <div class="">
           <p class="text-left text-xl font-semibold m-2">Dr Millat Munna</p>
-          <img src="img/P4.png" alt="" class="rounded-md" />
-          <br />
+          <img src="img/P4.png" alt="" class="rounded-md shadow-md" />
           <p class="text-gray-400">Some</p>
           <a href="" class="font-bold hover:underline"
             >There are some news about this man?</a
           >
-          <br />
-          <a href="" class="hover:text-red-600 mt-4">Read More</a>
+          
         </div>
         <div class="">
           <p class="text-left text-xl font-semibold m-2">Ms. Salma Reza</p>
-          <img src="img/P6.png" alt="" class="rounded-md" />
-          <br />
+          <img src="img/P6.png" alt="" class="rounded-md shadow-md" />
           <p class="text-gray-400">Some</p>
           <a href="" class="font-bold hover:underline"
             >There are some news about this man?</a
           >
-          <br />
-          <a href="" class="hover:text-red-600 mt-4">Read More</a>
+
+          
         </div>
         <div class="">
           <p class="text-left text-xl font-semibold m-2">Siam Hossain</p>
-          <img src="img/P7.png" alt="" class="rounded-md" />
+          <img src="img/P7.png" alt="" class="rounded-md shadow-md" />
         </div>
         <div class="">
           <p class="text-left text-xl font-semibold m-2">Xenon Mondol</p>
-          <img src="img/P8.png" alt="" class="rounded-md" />
+          <img src="img/P8.png" alt="" class="rounded-md shadow-md" />
           <br />
           <p class="text-gray-400">Some</p>
           <a href="" class="font-bold hover:underline"
             >There are some news about this man?</a
           >
-          <br />
-          <a href="" class="hover:text-red-600 mt-4">Read More</a>
+
+          
         </div>
         <div class="">
           <p class="text-left text-xl font-semibold m-2">Touhidul Islam</p>
-          <img src="img/P9.png" alt="" class="rounded-md" />
+          <img src="img/P9.png" alt="" class="rounded-md shadow-md" />
         </div>
         <div class="">
           <p class="text-left text-xl font-semibold m-2">Mithila Khatun</p>
-          <img src="img/P10.png" alt="" class="rounded-md" />
-          <br />
+          <img src="img/P10.png" alt="" class="rounded-md shadow-md" />
+
           <p class="text-gray-400">Some</p>
           <a href="" class="font-bold hover:underline"
             >There are some news about this man?</a
           >
-          <br />
-          <a href="" class="hover:text-red-600 mt-4">Read More</a>
+
+          
         </div>
         <div class="">
           <p class="text-left text-xl font-semibold m-2">Shimanto Kumar</p>
-          <img src="img/P11.png" alt="" class="rounded-md" />
+          <img src="img/P11.png" alt="" class="rounded-md shadow-md" />
         </div>
         <div class="">
           <p class="text-left text-xl font-semibold m-2">Maksuda Mim</p>
-          <img src="img/P12.png" alt="" class="rounded-md" />
-          <br />
+          <img src="img/P12.png" alt="" class="rounded-md shadow-md" />
+
           <p class="text-gray-400">Some</p>
           <a href="" class="font-bold hover:underline"
             >There are some news about this man?</a
           >
-          <br />
-          <a href="" class="hover:text-red-600 mt-4">Read More</a>
         </div>
         <div class="">
           <p class="text-left text-xl font-semibold m-2">Raju khandakar</p>
-          <img src="img/P13.png" alt="" class="rounded-md" />
+          <img src="img/P13.png" alt="" class="rounded-md shadow-md" />
         </div>
       </div>
     </div>
@@ -1134,12 +1159,13 @@
     <br /><br /><br /><br />
     <!--Custom News Section-->
     <div class="relative sm:w-[1024px] mx-auto">
-      <div class="grid sm:grid-cols-2 space-x-2">
-        <div class="relative mr-4">
-          <img src="img/C1.png" alt="" class="rounded-md" />
-          <div class="absolute bottom-0 right-0 bg-red-600">
-            <div>
-              <p class="">AsusBook</p>
+      <div class="grid sm:grid-cols-2 justify-center space-x-2">
+        <div class="relative mr-4 mb-4 sm:mb-0">
+          <img src="img/C1.png" alt="" class="rounded-md " />
+          <div class="absolute bottom-0 right-0 bg-red-600 rounded-md">
+            <div class="m-2">
+              <p class="text-white text-xl font-semibold">AsusBook 2023!</p>
+              <p class="text-white">Play with more power with intel i9-13th Gen</p>
             </div>
           </div>
         </div>
